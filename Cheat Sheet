@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS Selectors</title>
+<link href="./styles.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<header>
+  <h1>CSS Selectors</h1>
+</header>
+
+<div class="container">
+<h2>Selectors</h2>
+
+<table class="selectors">
+<thead class="thead">
+<tr>
+  <td id="column">Selector</td>
+  <td>Name</td>
+  <td>Description</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td><span class="name">class</span></td>
+  <td>Class Selector</td>
+  <td>Selects HTML elements with a specific class attribute.</td>
+</tr>
+<tr>
+  <td><span class="name">id</span></td>
+  <td>Id Selector</td>
+  <td>Selects HTML elements with a specific id attribute.</td>
+</tr>
+<tr>
+  <td><span class="name">element</span></td>
+  <td>Element Selector</td>
+  <td>Selects specified HTML elements</td>
+</tr>
+<tr>
+  <td><span class="name">group</span></td>
+  <td>Grouping Selector</td>
+  <td>Selects all the HTML elements we want to have the same style.</td>
+</tr>
+</tbody>
+</table>
+<br>
+
+<h2>Examples</h2>
+
+<table class="examples">
+<tr>
+  <th class="thead">Selector</th>
+  <td>class</td>
+  <td>id</td>
+  <td>element</td>
+  <td>group</td>
+</tr>
+<tr>
+  <th class="thead">CSS Code</th>
+  <td>.class</td>
+  <td>#id</td>
+  <td>h1</td>
+  <td>h1, h2, p</td>
+</tr>
+<tr>
+  <th class="thead">Example</th>
+  <td>.header</td>
+  <td>#description</td>
+  <td>h1 {}</td>
+  <td>h1, h2, p {}</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
